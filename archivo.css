@@ -1,0 +1,48 @@
+#fondo {
+    background-color: darkslategray;
+}
+.titulo {
+    color: rgb(17, 207, 207);
+    width: 30px; height: 30px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+.parrafo { /* creo la clase .fondo para nombrarla en el html */
+    color: rgb(0, 0, 0);  
+    width: 500px;
+    font-size: 30px;
+    text-align-last:justify;
+    
+}
+
+@import url(paginas/comunes.css);
+/* portfolio */
+.navegacioPortfolio a {
+    list-style:circle;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-size: 30px;
+    padding: 23px;
+}
+.navegacioPortfolio {
+    list-style:disc;
+    list-style-position: outside;
+    list-style-position: inherit;
+    display: inline-flex;
+    color: chartreuse;
+}
+
+.fondoPortfolio {
+    background-image: url(../practica/imagines/circle-blues.png);
+    background-repeat:round;
+}
+ .letraPortfolio {
+     font-family: cursive;
+     text-decoration: dotted;
+     font-weight: bold;
+     font-size: xx-large;
+     color:#56901d;
+     font-family: 'Zen Tokyo Zoo', cursive;;
+     
+ }
+
